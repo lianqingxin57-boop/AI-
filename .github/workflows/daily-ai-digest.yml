@@ -3,7 +3,7 @@ name: Daily AI digest to Feishu/Lark
 on:
   schedule:
     # 01:00 UTC == 09:00 Asia/Shanghai (no DST)
-    - cron: "0 1 * * *"
+    - cron: "30 2 * * *"
   workflow_dispatch:
 
 jobs:
