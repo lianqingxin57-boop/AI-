@@ -1,0 +1,34 @@
+# RSS feeds for AI / ML news and official blogs. Add or remove entries as needed.
+# `max_per_feed` overrides the global default from env MAX_PER_FEED.
+
+feeds:
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+  - name: DeepMind Blog
+    url: https://deepmind.google/blog/rss.xml
+  - name: Microsoft AI Blog
+    url: https://blogs.microsoft.com/ai/feed/
+  - name: MIT Technology Review – AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+  - name: LangChain Blog
+    url: https://blog.langchain.dev/rss/
+  - name: AWS Machine Learning Blog
+    url: https://aws.amazon.com/blogs/machine-learning/feed/
+  - name: NVIDIA Blog
+    url: https://blogs.nvidia.com/feed/
+  - name: Simon Willison’s Weblog
+    url: https://simonwillison.net/atom/everything/
+  - name: Synced Review
+    url: https://syncedreview.com/feed/
+  - name: arXiv cs.AI (recent)
+    url: http://export.arxiv.org/rss/cs.AI
+    max_per_feed: 5
+  - name: arXiv cs.LG (recent)
+    url: http://export.arxiv.org/rss/cs.LG
+    max_per_feed: 5
